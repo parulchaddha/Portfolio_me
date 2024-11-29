@@ -23,10 +23,10 @@ const greeting = {
   username: "Parul Chaddha",
   title: "Hi all, I'm Parul",
   subTitle: emoji(
-    "A passionate and aspiring Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Flask / YOLO and some other cool libraries and frameworks."
+    "A passionate and aspiring Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Flask / Django and some other cool libraries and frameworks."
   ),
   resumeLink:
-  "https://drive.google.com/file/d/1EtFNat78XY_59xYQXM12oQkF1_g8B-TU/view?usp=sharing", // Set to empty to hide the button
+  "https://drive.google.com/drive/folders/1nrTbSn_FJMR7oRMxJ9bmf92QsIs-tNUh?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -55,7 +55,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / AZURE"
+      "⚡ Develop backend services and Integration of third party services such as Firebase/ AWS / AZURE"
     )
   ],
 
@@ -137,7 +137,7 @@ const educationInfo = {
       logo: require("./assets/images/bv.jfif"),
       subHeader: "Bachelor's of Technology in Information Technology",
       duration: "July 2021 - May 2025",
-      desc: "Scored 9.81 cgpa till now",
+      desc: "Scored 9.59 cgpa till now",
       descBullets: [
         "Let a coding club and conducted many technical workshops.",
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -165,7 +165,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Version Control",
@@ -173,11 +173,11 @@ const techStack = {
     },
     {
       Stack: "UI/UX Design", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend", //Insert stack or technology you have experience in
-      progressPercentage: "50%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -189,15 +189,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "DESIS Ascend Educare Scholar",
-      company: "D.E. Shaw & Co.",
-      companylogo: require("./assets/images/shaw.jfif"),
+      role: "Software Engineering Intern",
+      company: "American Express",
+      companylogo: require("./assets/images/amex.jpg"),
       date: "Oct 2022 - Mar 2023",
       desc: "",
       descBullets: [
-        "Contributed to frontend development of PustakKosh project using ReactJS, designing workflow and architecture",
-        "Gained proficiency in Linux and actively maintained GitHub repository using Git for version control",
-        "Ensured proper functionality of all APIs through comprehensive testing, prioritizing design patterns in ReactJS"
+        "Optimized web applications through DNS setup, efficient TCP/IP routing, and audit logging with Django,enhancing security and tracking user activities",
+        "Configured enterprise-level routers and switches for seamless performance. Developed dashboards for real-time network management, incorporating advanced device model filters",
+        "Enhanced operational efficiency by resolving a bug in RFC creation, eliminating unnecessary information display.Implemented auto-population of device descriptions and details in RFC forms, improving accuracy and user experience"
       ]
     },
   ]
@@ -218,35 +218,35 @@ const bigProjects = {
   subtitle: "SOME OF MY PERSONAL AND TEAM PROJECTS",
   projects: [
     {
-      image: require("./assets/images/web1.png"),
-      projectName: "PustakKosh",
-      projectDesc: "A book exchange platform for seamless communication between book donors and needy ones",
+      image: require("./assets/images/tastebud.jpeg"),
+      projectName: "Tastebud",
+      projectDesc: "A recipe generator and exploration tool enabling users to discover personalized recipes based on ingredients, cuisine preferences, and dietary needs.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/akipur/Pustak-Kosh"
+          url: "https://github.com/parulchaddha/TasteBud-AI"
         }
       ]
     },
     {
-      image: require("./assets/images/web2.png"),
-      projectName: "Ability Assist",
-      projectDesc: "Aimed at enhancing specially-abled individual lives by providing assistance and solutions to their unique challenges",
+      image: require("./assets/images/brain.jpeg"),
+      projectName: "Tumortrack",
+      projectDesc: "Developed a brain tumor classification system with the Xception CNN model, achieving 99.16% accuracy on MRI scans",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/parulchaddha/Ability-Assist"
+          url: "https://colab.research.google.com/drive/1RkxKmpnk5F-dIsgAe4GtMdTvHdsYSrqi?usp=sharing"
         }
       ]
     },
     {
-      image: require("./assets/images/web3.png"),
-      projectName: "Car Counter",
-      projectDesc: " Utilizes the YOLO (You Only Look Once) object detection model to count the number of cars in a video stream",
+      image: require("./assets/images/spam.png"),
+      projectName: "SMS spam detector",
+      projectDesc: " This project implements a SMS spam detector using Machine Learning algorithms, primarily based on the Multinomial Naive Bayes algorithm",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/parulchaddha/Car_Counter"
+          url: "https://github.com/parulchaddha/sms-spam-detector"
         }
       ]
     },
@@ -274,6 +274,30 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "DESIS Ascend Educare Scholar'22",
+      subtitle: "Selected in the top 40 girls all over india for mentorship program by The D.E.Shaw & Co.",
+      image: require("./assets/images/shaw.jfif"),
+      imageAlt: "D.E.Shaw",
+      footerLink: [
+        {
+          name: "Certification", 
+          url: "https://www.linkedin.com/posts/parulchaddha0904_deshaw-desis-ascend-activity-6983905017208410112-0JZT?utm_source=share&utm_medium=member_desktop"
+        },
+      ]
+    },
+    {
+      title: "Flipkart girls Wanna Code 5.0",
+      subtitle: "Selected as the top 30 girls all over india out of 200 girls selected for mentorship program out of 14000+ applications",
+      image: require("./assets/images/flipkart.jpeg"),
+      imageAlt: "MS Logo",
+      footerLink: [
+        {
+          name: "Certification", 
+          url: "https://www.linkedin.com/posts/parulchaddha0904_storyabrtime-warriors-flipkart-activity-7227890152457576448-2YQN?utm_source=share&utm_medium=member_desktop"
+        },
+      ]
+    },
     {
       title: "MICROSOFT AZURE AI-900 CERTIFICATE",
       subtitle: "Completed Certification from Microsoft Learn Portal and learnt the basics of AI/ML",
@@ -417,14 +441,13 @@ const talkSection = {
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
-
   talks: [
     {
       title: "Git and GitHub Workshop",
       subtitle: "Speaker of Hands-on workshop which has more than 250+ attendees",
       slides_url: "https://docs.google.com/presentation/d/1MY7mB09xhiyA5q05_mifLkIxTBnBBbaq88nrWqcq3FA/edit?usp=sharing",
       event_url: "https://www.linkedin.com/feed/update/urn:li:activity:7114902429254455296/"
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
